@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Oriya:wght@400..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.neon-text {
+    text-shadow: 
+      0 0 5px rgba(255, 255, 255, 0.8),
+      0 0 10px rgba(255, 255, 255, 0.6),
+      0 0 20px #00ffff,
+      0 0 10px #00ffff,
+      0 0 10px #00ffff,
+      0 0 10px #00ffff,
+      0 0 10px #00ffff;
+    color: #fff;
+  }
+      
