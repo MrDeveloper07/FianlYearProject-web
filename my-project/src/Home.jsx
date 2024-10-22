@@ -1,6 +1,7 @@
 import React from 'react';
 import Spline from '@splinetool/react-spline';
 import img from './assets/logo.png'
+import { Link } from 'react-router-dom';
 class ErrorBoundary extends React.Component {
   constructor(props) {
     super(props);
@@ -48,11 +49,11 @@ export default function Home() {
  <span className='font-serif font-semibold'> Sign Up</span>
 
 </div>
-<div className="caption absolute bottom-36 text-white text-lg">
+<div className="caption absolute bottom-28 neon-text text-[#994af9] font-medium px-36 text-center pt-10 text-lg">
   <span>"Unigen AI empowers creators, developers, and innovators with advanced AI tools designed to streamline your workflow and elevate your creative potential."</span>
 </div>
-<div className="btnexplore absolute bottom-16">
-<button class="
+<div className="btnexplore absolute bottom-12">
+<Link to="/home" class="
         group
         p-5
         cursor-pointer 
@@ -92,7 +93,7 @@ export default function Home() {
         <span
             class="group-hover:w-full absolute right-0 h-full w-5   border-y-2 border-r-2  border-[#00ffff] transition-all duration-500">
         </span>
-    </button>
+    </Link>
 </div>
 
         </div>
